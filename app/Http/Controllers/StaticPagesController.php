@@ -11,7 +11,7 @@ class StaticPagesController extends Controller
 {
     public function home()
     {
-        return view('static_pages/home');
+      return view('static_pages/home');
     }
 
     public function help()
@@ -21,6 +21,6 @@ class StaticPagesController extends Controller
 
     public function about()
     {
-        return view('static_pages/about');
+      return view('static_pages/about');
     }
 }
