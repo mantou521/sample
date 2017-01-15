@@ -16,6 +16,7 @@ get('/about', 'StaticPagesController@about')->name('about');
 
 get('/signup', 'UsersController@create')->name('signup');
 resource('users', 'UsersController');
+//get('/users/{id}/edit', 'UsersController@edit')->name('users.edit');
 
 get('login', 'SessionsController@create')->name('login');
 post('login', 'SessionsController@store')->name('login');
